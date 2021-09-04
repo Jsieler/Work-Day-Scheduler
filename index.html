@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
 </head>
@@ -22,50 +23,69 @@
     </header>
     <div class="container">
         <div class="row" id="9AM">
-            <div class="col-1"><h2>9AM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>9AM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="9am-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="10AM">
-            <div class="col-1"><h2>10AM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>10AM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="10am-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="11AM">
-            <div class="col-1"><h2>11AM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>11AM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="11am-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="12AM">
-            <div class="col-1"><h2>12AM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>12AM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="12am-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="1PM">
-            <div class="col-1"><h2>1PM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>1PM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="1pm-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="2PM">
-            <div class="col-1"><h2>2PM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>2PM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="2pm-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="3PM">
-            <div class="col-1"><h2>3PM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>3PM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="3pm-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="4PM">
-            <div class="col-1"><h2>4PM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="time-block">
+                <h2>4PM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="4pm-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
         <div class="row" id="5PM">
-            <div class="col-1"><h2>5PM</h2></div>
-            <div class="col-8"><textarea class="form-control"></textarea></div>
+            <div class="col-1 hour" id="ime-block">
+                <h2>5PM</h2>
+            </div>
+            <div class="col-8"><textarea class="form-control description" id="5pm-row"></textarea></div>
             <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
         </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
