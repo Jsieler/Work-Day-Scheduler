@@ -20,70 +20,71 @@
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead"></p>
+        <button class="btn-danger" id="clear-storage"  onclick="javascript:clearLocalStorage();">Clear All Local Storage</button>
     </header>
     <div class="container">
         <div class="row" id="9AM">
             <div class="col-1 hour" id="time-block">
                 <h2>9AM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="9am-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour9"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour9();">Delete</div>
         </div>
         <div class="row" id="10AM">
             <div class="col-1 hour" id="time-block">
                 <h2>10AM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="10am-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour10"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour10();">Delete</div>
         </div>
         <div class="row" id="11AM">
             <div class="col-1 hour" id="time-block">
                 <h2>11AM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="11am-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour11"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour11();">Delete</div>
         </div>
         <div class="row" id="12AM">
             <div class="col-1 hour" id="time-block">
                 <h2>12AM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="12am-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour12"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour12();">Delete</div>
         </div>
         <div class="row" id="1PM">
             <div class="col-1 hour" id="time-block">
                 <h2>1PM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="1pm-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour1"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour1();">Delete</div>
         </div>
         <div class="row" id="2PM">
             <div class="col-1 hour" id="time-block">
                 <h2>2PM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="2pm-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour2"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour2();">Delete</div>
         </div>
         <div class="row" id="3PM">
             <div class="col-1 hour" id="time-block">
                 <h2>3PM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="3pm-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour3"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour3();">Delete</div>
         </div>
         <div class="row" id="4PM">
             <div class="col-1 hour" id="time-block">
                 <h2>4PM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="4pm-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour4"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour4();">Delete</div>
         </div>
         <div class="row" id="5PM">
             <div class="col-1 hour" id="ime-block">
                 <h2>5PM</h2>
             </div>
-            <div class="col-8"><textarea class="form-control description" id="5pm-row"></textarea></div>
-            <div class="col-3"><button type="button" class="btn btn-primary">Save</button></div>
+            <div class="col-8"><textarea class="form-control description" id="hour5"></textarea></div>
+            <div class="col-3"><button class="btn btn-danger" type="button"  onclick="javascript:deleteHour5();">Delete</div>
         </div>
 
     </div>
